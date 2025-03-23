@@ -5,7 +5,7 @@ Dress Shop is a full-stack e-commerce application for purchasing fashion apparel
 ## 🚀 Live Demo
 [Visit the Live Site](https://dress-shop.vercel.app/)
 
-## 📌 Features
+## Features
 - User Authentication (Sign up, Login, Logout)
 - Product Listings with Filtering & Sorting
 - Shopping Cart & Wishlist
@@ -13,7 +13,7 @@ Dress Shop is a full-stack e-commerce application for purchasing fashion apparel
 - Admin Dashboard for Product Management
 - Responsive Design for All Devices
 
-## 🛠️ Tech Stack
+##  Tech Stack
 ### Frontend
 - React.js (Next.js for SSR and SEO Optimization)
 - Tailwind CSS for Styling
@@ -28,7 +28,7 @@ Dress Shop is a full-stack e-commerce application for purchasing fashion apparel
 - Frontend & Backend: Hosted on **Vercel**
 - Database: MongoDB Atlas
 
-## 📂 Folder Structure
+##  Folder Structure
 ```
 /dress-shop
 │── frontend (React/Next.js code)
@@ -39,7 +39,7 @@ Dress Shop is a full-stack e-commerce application for purchasing fashion apparel
 │── README.md (Project Documentation)
 ```
 
-## 📖 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Node.js & npm installed
@@ -70,19 +70,19 @@ Dress Shop is a full-stack e-commerce application for purchasing fashion apparel
    ```
    The app should now be running at `http://localhost:3000`
 
-## 📜 API Endpoints
+##  API Endpoints
 - **GET /api/products** - Fetch all products
 - **POST /api/users/login** - Authenticate user
 - **POST /api/orders** - Create a new order
 
-## 🚀 Deployment
+##  Deployment
 - The frontend and backend are deployed on **Vercel**.
 - Update `.env` with production credentials.
 
-## 📌 Contributing
+##  Contributing
 Contributions are welcome! Feel free to fork the repo and submit a PR.
 
-## 📞 Contact
+##  Contact
 For any queries, reach out to [your email].
 
 
