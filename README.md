@@ -1,96 +1,88 @@
-<<<<<<< HEAD
-# shopdressly
-=======
-# DRESS SHOP
+# Dress Shop
 
-### A full stack e-commerce website for clothing store.
+Dress Shop is a full-stack e-commerce application for purchasing fashion apparel. The project is built using modern web technologies and is hosted on Vercel.
 
-### [Live demo](https://dress-shop.vercel.app/)
+## 🚀 Live Demo
+[Visit the Live Site](https://dress-shop.vercel.app/)
 
-## Screenshots
+## 📌 Features
+- User Authentication (Sign up, Login, Logout)
+- Product Listings with Filtering & Sorting
+- Shopping Cart & Wishlist
+- Secure Checkout & Payment Integration
+- Admin Dashboard for Product Management
+- Responsive Design for All Devices
 
-![Thumbnail](dress-home-page.png)
+## 🛠️ Tech Stack
+### Frontend
+- React.js (Next.js for SSR and SEO Optimization)
+- Tailwind CSS for Styling
+- Redux Toolkit for State Management
 
-## Stacks
+### Backend
+- Node.js with Express.js
+- MongoDB with Mongoose ORM
+- JWT Authentication
 
-- TypeScript
-- Next js
-- Node js
-- Express js
-- MongoDB
-- Cloudinary (for image hosting)
-- Stripe and Paypal (for payment)
-- Vercel (for deployment)
+### Deployment
+- Frontend & Backend: Hosted on **Vercel**
+- Database: MongoDB Atlas
 
-### Clone Repository
-
+## 📂 Folder Structure
 ```
-git clone https://github.com/BohdanFiliuk/react-dress-shop-vercel.git
-```
-
-### Client Installation
-
-```
-cd dress-shop
-cd client
-npm install or yarn install
-```
-
-#### Add .env.local file to root client directory
-
-```
-NEXT_PUBLIC_PAYPAL_CLIENT_ID=
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KY=
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=
+/dress-shop
+│── frontend (React/Next.js code)
+│── backend (Express.js API)
+│── public (Static Assets)
+│── .env (Environment Variables)
+│── package.json (Dependencies & Scripts)
+│── README.md (Project Documentation)
 ```
 
-## Server Installation
+## 📖 Installation & Setup
 
-```
-cd server
-npm install or yarn install
-```
+### Prerequisites
+- Node.js & npm installed
+- MongoDB Atlas Account
 
-#### Add .env file to root server directory
+### Steps to Run Locally
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/yourusername/dress-shop.git
+   cd dress-shop
+   ```
+2. **Set Up Environment Variables**
+   Create a `.env` file in both `frontend` and `backend` directories with the required values.
+   ```
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   NEXT_PUBLIC_API_URL=http://localhost:5000
+   ```
+3. **Install Dependencies**
+   ```sh
+   cd frontend && npm install
+   cd ../backend && npm install
+   ```
+4. **Run the Application**
+   ```sh
+   cd backend && npm run dev
+   cd ../frontend && npm run dev
+   ```
+   The app should now be running at `http://localhost:3000`
 
-```
-DATABASE_URI=
-JWT_SECRET=
-STRIPE_SECRET_API_KEY=
-GOOGLE_WEB_CLIENT_ID=
-GOOGLE_ANDROID_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-CLIENT_PUBLIC_URL=
-CLOUDINARY_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
-PAYPAL_CLIENT_ID=
-PAYPAL_CLIENT_SECRET=
-```
+## 📜 API Endpoints
+- **GET /api/products** - Fetch all products
+- **POST /api/users/login** - Authenticate user
+- **POST /api/orders** - Create a new order
 
-### This will run both client and server
+## 🚀 Deployment
+- The frontend and backend are deployed on **Vercel**.
+- Update `.env` with production credentials.
 
-```
-npm run dev
-```
+## 📌 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a PR.
 
-## Deploy using vercel
+## 📞 Contact
+For any queries, reach out to [your email].
 
-### Globally install vercel
 
-```
-npm i -g vercel
-```
-
-### Client
-
-```
-vercel --prod
-```
-
-## Server
-
-```
-vercel --prod
-```
->>>>>>> 4345957 (first commit)
